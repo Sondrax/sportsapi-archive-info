@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SportsAPI Archive — privacy policy</title>
+</head>
+<body>
+  <main>
+    <h1>SportsAPI Archive privacy policy</h1>
+    <p>Last updated: 27 September 2026.</p>
+    <p>SportsAPI Archive is a personal backup tool used only by its owner. It uses Google OAuth so rclone can access the owner's Google Drive account for a dedicated encrypted restic backup repository.</p>
+    <h2>Google Drive data and permission</h2>
+    <p>The requested full Drive permission can technically see, create, edit and delete all files in the authorized Drive account. The tool's configuration directs operations to its recovery repository, but this configuration does not narrow the OAuth permission. Backup, verification, restore and repository-maintenance operations may process Drive file names, metadata and encrypted repository objects.</p>
+    <h2>Storage and sharing</h2>
+    <p>Restic encrypts backup contents before rclone transfers them to Google Drive. The tool has no advertising, public user accounts or sharing feature; it does not sell Drive data. Encrypted backup objects are stored with Google Drive as the chosen storage provider. OAuth credentials are held in the owner's private configuration, not on these information pages.</p>
+    <p>These static pages are hosted by GitHub Pages and have no Google sign-in or data-entry form. The owner controls backup repository maintenance and deletion; no fixed retention period is promised. Revoking OAuth access stops future authorized Drive operations but does not itself delete already stored backup objects or local copies.</p>
+    <h2>Control of access</h2>
+    <p>The owner can review or remove this app's access in Google Account connected-app settings. See <a href="https://support.google.com/accounts/answer/13533235?hl=en">Google's instructions for managing linked apps</a>. Removing access prevents future Drive operations until the owner authorizes the tool again.</p>
+    <p><a href="../">SportsAPI Archive information</a></p>
+  </main>
+</body>
+</html>
